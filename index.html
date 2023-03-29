@@ -5,27 +5,30 @@
     <meta charset="utf-8" />
     <title>Matt Jones's Crazy Blog!</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 
 <div class="container">
-    <div class="header navbar-container">
+    <header class="header navbar-container">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="blog-post.html">Post</a></li>
         </ul>
-    </div>
+    </header>
     <div class="sidebar sidebar-container">
         <ul>
             <li><a href="blog-post.html">Most Recent Posts</a></li>
             <li><a href="blog-post.html">About</a></li>
         </ul>
     </div>
-    <div class="content">
+    <section class="content">
         <div class="nested-grid">
             <div class="blog-card">
-                <div id="one" class="photo-box" aria-label="Description of the photo"></div>
-                <div class="card-body">
+                <div class="image-container">
+                    <img src="static/images/image1.jpg" alt="Image 1">
+                    <figcaption>This is image 1</figcaption>
+                </div>
+                <article class="card-body">
                     <h2>Getting Started with Model Trains: A Beginner's Guide</h2>
                     <p>Are you interested in model trains but not sure where to start? Model railroading is a fun and
                         rewarding hobby that can bring a lot of joy and satisfaction. In this beginner's guide, we'll
@@ -46,35 +49,44 @@
                         enjoyment and creativity. With a little research, planning, and patience, anyone can get started
                         with model railroading. Happy railroading!</p>
                     <a href="blog-post.html"><button>View Post</button></a>
-                </div>
+                    </article>
             </div>
             <div class="blog-card">
-                <div id="two" class="photo-box" aria-label="Description of the photo"></div>
-                <div class="card-body">
+                <div class="image-container">
+                    <img src="static/images/image2.jpg" alt="Image 2">
+                    <figcaption>This is image 2</figcaption>
+                </div>
+                <article class="card-body">
                     <h2>Blog Post 2</h2>
                     <p>This is blog post 2, it links to the blog posting page</p>
                     <a href="blog-post.html"><button>View Post</button></a>
-                </div>
+                </darticle>
             </div>
             <div class="blog-card">
-                <div id="three" class="photo-box" aria-label="Description of the photo"></div>
-                <div class="card-body">
+                <div class="image-container">
+                    <img src="static/images/image3.jpg" alt="Image 3">
+                    <figcaption>This is image 3</figcaption>
+                </div>
+                <article class="card-body">
                     <h2>Blog Post 3</h2>
                     <p>This is blog post 3, it links to the blog posting page</p>
                     <a href="blog-post.html"><button>View Post</button></a>
-                </div>
+                </article>
             </div>
             <div class="blog-card">
-                <div id="four" class="photo-box" aria-label="Description of the photo"></div>
-                <div class="card-body">
+                <div class="image-container">
+                    <img src="static/images/image4.jpg" alt="Image 4">
+                    <figcaption>This is image 4</figcaption>
+                </div>
+                <article class="card-body">
                     <h2>Blog Post 4</h2>
                     <p>This is blog post 4, it links to the blog posting page</p>
                     <a href="blog-post.html"><button>View Post</button></a>
-                </div>
+                </article>
             </div>
         </div>
-    </div>
-    <div class="footer">&copy; 2023 Model Train Blog. All Rights Reserved.</div>
+    </section>
+    <footer>&copy; 2023 Model Train Blog. All Rights Reserved.</footer>
 </div>
 
 </html>

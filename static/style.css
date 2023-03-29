@@ -1,3 +1,7 @@
+@import url("cards.css");
+@import url("posts.css");
+@import url("images.css");
+
 .container {
   font-family: sans-serif;
   display: grid;
@@ -10,11 +14,11 @@
     "ft";
 }
 
-.header {
+header {
   grid-area: hd;
 }
 
-.footer {
+footer {
   grid-area: ft;
   color: white;
   background-color: #333;
@@ -80,92 +84,6 @@ li {
   text-decoration: none;
 }
 
-.nested-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  justify-items: center;
-  grid-gap: 6px;
-  align-content: space-evenly;
-  padding: 10px;
-}
-
-.blog-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: none;
-  width: 200px;
-  height: 350px;
-  border-radius: 5px;
-  background-color: #333;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: white;
-  padding: 14px 16px;
-  text-align: center;
-}
-
-.card-body {
-  padding: 10px;
-}
-
-.card-body h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.card-body p {
-  font-size: 1rem;
-  font-style: italic;
-  margin: 0;
-  line-height: 1.5;
-  width: 180px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.photo-box {
-  width: 150px;
-  height: 200px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#one {
-  background-image: url('images/image1.jpg');
-}
-
-#two {
-  background-image: url('images/image2.jpg');
-}
-
-#three {
-  background-image: url('images/image3.jpg');
-}
-
-#four {
-  background-image: url('images/image4.jpg');
-}
-
-button {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
-}
-
 @media (min-width: 426px) and (max-width:800px) {
   .container {
     font-family: sans-serif;
@@ -191,3 +109,4 @@ button:hover {
       "ft ft ft ft ft ft ft ft";
   }
 }
+

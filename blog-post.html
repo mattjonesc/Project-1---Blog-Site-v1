@@ -4,20 +4,26 @@
 <head>
     <meta charset="utf-8" />
     <title>Matt Jones's Crazy Blog!</title>
-    <link rel="stylesheet" href="blog-post.css">
-    <meta name="description" content="Example" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+    <link rel="stylesheet" href="static/style.css">
 </head>
 
 <div class="container">
-    <div class="header navbar-container">
+    <header class="header navbar-container">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="blog-post.html">Post</a></li>
         </ul>
+    </header>
+    <div class="sidebar sidebar-container">
+        <ul>
+            <li><a href="blog-post.html">Most Recent Posts</a></li>
+            <li><a href="blog-post.html">About</a></li>
+        </ul>
     </div>
-    <div class="content">
-        <div class="blog-post">
-            <div class="blog-post-col">
+    <section class="content">
+        <section class="blog-post">
+            <article class="blog-post-col">
                 <h2>Getting Started with Model Trains: A Beginner's Guide</h2>
                 <p>Are you interested in model trains but not sure where to start? Model railroading is a fun and
                     rewarding hobby that can bring a lot of joy and satisfaction. In this beginner's guide, we'll cover
@@ -35,43 +41,46 @@
                     or as complex as you want it to be. Take your time, experiment, and don't be afraid to ask for help
                     or advice from other hobbyists. In conclusion, model trains are a fun and rewarding hobby that can
                     provide hours of enjoyment and creativity. With a little research, planning, and patience, anyone
-                    can get started with model railroading. Happy railroading!</p>
-            </div>
-            <div class="blog-post-col">
+                    can get started with model railroading. Happy railroading!
+                </p>
+            </article>
+            <section class="blog-post-col">
                 <h2>Author Info</h2>
-                <div class="blog-post-row">
+                <section class="blog-post-row">
                     <h1>Name</h1>
                     <p>Thomas Jefferson</p>
-                </div>
-                <div class="blog-post-row">
+                </section>
+                <section class="blog-post-row">
                     <h1>Title</h1>
                     <p>President of The National Model Railroad Association</p>
-                </div>
-                <div class="blog-post-row">
+                </section>
+                <section class="blog-post-row">
                     <h1>Current Company/School</h1>
                     <p>The National Model Railroad Association</p>
-                </div>
-                <div class="blog-post-row">
+                </section>
+                <section class="blog-post-row">
                     <h1>Short Bio</h1>
                     <p>Thomas Jefferson is a lifelong model train enthusiast and a member of the National Model Railroad
                         Association. He has been building and collecting model trains for over 30 years and has a deep
                         knowledge of the art and history of model railroading.</p>
-                </div>
-                <div class="blog-post-row">
-                    <h1>Avatar</h1><img
-                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aGVhZHNob3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                        alt="Tommy Boy">
-                </div>
-            </div>
-            <div class="blog-post-col">
+                </section>
+                <section class="blog-post-row">
+                    <h1>Avatar</h1>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aGVhZHNob3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Tommy Boy">
+                        <figcaption>This is Tom</figcaption>
+                    </div>
+                </section>
+            </section>
+            <section class="blog-post-col">
                 <h2>Social Sharing</h2>
-                <img src="images/twitter.png" alt="Twitter">
-                <img src="images/facebook.png" alt="Facebook">
-                <img src="images/instagram.png" alt="Instagram">
-            </div>
-        </div>
-    </div>
-    <div class="footer">&copy; 2023 Model Train Blog. All Rights Reserved.</div>
+                <img src="static/images/twitter.png" alt="Twitter">
+                <img src="static/images/facebook.png" alt="Facebook">
+                <img src="static/images/instagram.png" alt="Instagram">
+            </section>
+        </section>
+    </section>
+    <footer>&copy; 2023 Model Train Blog. All Rights Reserved.</footer>
 </div>
 
 </html>
