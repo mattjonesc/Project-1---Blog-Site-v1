@@ -53,12 +53,52 @@ li {
   margin-right: 20px;
 }
 
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none
+}
+
+p {
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+  margin: 10px;
+  color: darkgray;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+  margin: 10px;
+  color: cornsilk; 
+}
+
+h3 {
+  font-size: 0.6rem;
+  font-weight: bold;
+  margin: 0;
+  margin: 10px;
+}
+
+q {
+  font-style: italic;
+  color: gray;
+  margin: 10px;
+}
+
 .navbar-container a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 .sidebar-container {
@@ -78,10 +118,8 @@ li {
 
 .sidebar-container a {
   display: block;
-  color: white;
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 @media (min-width: 426px) and (max-width:800px) {
@@ -109,4 +147,3 @@ li {
       "ft ft ft ft ft ft ft ft";
   }
 }
-

@@ -28,30 +28,14 @@
     padding: 10px;
 }
 
-.card-body h2 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 10px;
-}
-
 .card-body p {
     font-size: 1rem;
-    font-style: italic;
     margin: 0;
     line-height: 1.5;
     width: 180px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.card-body p:before {
-    content: open-quote;
-}
-
-.card-body p:after {
-    content: close-quote;
 }
 
 button {
